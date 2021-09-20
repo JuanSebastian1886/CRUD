@@ -1,0 +1,15 @@
+CREATE TABLE `empleados` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(255) NOT NULL,
+  `correo` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Volcado de datos para la tabla `predial`
+
+INSERT INTO `predial` (`nPredial`, `nPredio`, `departamento`,  `municipio`, `avaluo`,`nPropietario`) VALUES
+(65, 'Oscar', 'oscaruh@develoteca.com');
+
+-- Indices de la tabla `predial`
+--
+ALTER TABLE `predial`
+  ADD PRIMARY KEY (`nPredial`);
